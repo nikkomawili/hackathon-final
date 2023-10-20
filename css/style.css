@@ -1,0 +1,137 @@
+:root {
+    --primary-color: #0F152B;
+    --secondary-color : #9CC4E1;
+    --tone1: #F5F6E3;
+    --tone2: #5a6282;
+    --gradient: #3e92b6;
+}
+* {
+    box-sizing: border-box;
+   
+}
+img {
+    max-width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--tone1);
+}
+header {
+    padding: 10px 0;
+    background: url("/img/Union.png") center center no-repeat;
+    background-repeat: no-repeat;
+    height: 1495px;
+    width: 94%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+    font-size: 20px;
+}
+header .right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+header .register {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.register button a {
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.register button {
+    border: none;
+    background-color: transparent;
+}
+.register p {
+    background: transparent;
+    color: white;
+}
+header .right p {
+    color: white;
+}
+
+/* HEADING 1 */
+
+.heading1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.heading1 .left{
+    width: 60%;
+}
+.heading1 .right {
+    width: 40%;
+    display: block;
+    max-width: 400px;
+}
+.heading1 .right .lets-talk {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.lets-talk button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px 100px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.heading1 .right p {
+    font-size: 20px;
+}
+.heading1 .left {
+    font-size: 80px;
+    color: white;
+}
+
+.hero-banner-bottom {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 5px;
+    background: url("img/hero\ banner\ button.png");
+    z-index: 100;
+    
+}
+
+.appointment-contact-2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    z-index: 2;
+}
+.hero-banner-3 {
+    position: absolute;
+    right: 100px;
+    bottom: -200px;
+    transform: rotate(15deg);
+    z-index: 3;
+}
+.hero-banner-1 {
+    position: absolute;
+    left: 100px;
+    bottom: -200px;
+    transform: rotate(-15deg);
+}
