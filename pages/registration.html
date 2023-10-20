@@ -4,33 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <!-- Registration Header -->
-    <header>
+    <header class="container">
         <img src="../img/logo-black.png" alt="iHealth's Logo" width="240" height="62">
         <div>Home</div>
         <div><p>Choose your preffered doctor and time to book an appointment or consultation</p></div>
+        <img src="../img/box2.png" alt="Box" width="57" height="57">
+        <img src="../img/chat-notif-black.png" alt="Notifications" width="57" height="57">
     </header>
 
     <!-- Hero Section -->
-    <section>
+    <section class="container">
+        <div class="hero">
+            <div class="hero-child">
+                <p>Welcome to</p>
+                <img src="../img/logo-black.png" alt="iHealth's Logo" width="240" height="62">
+                <img src="../img/registration-page-1.png" alt="Register Now" width="578" height="282">
+            </div>
 
+            <div class="hero-child">
+                <div>
+                    <button>Our Team</button>
+                    <p><strong>50+</strong>Our team contains more than 50 qualified healthcare professionals worldwide</p>
+                </div>
+                <div>
+                    <img src="../img/registration-page-2.png" alt="" width="1395" height="731">
+                    
+                </div>
+                <div class="hero-child-child">
+                    <button>Why Register</button>
+                    <ol>
+                        <li>Connect with healthcare professionals.</li>
+                        <li>Schedule medical appointments online.</li>
+                        <li>Access your health records securely.</li>
+                        <li>Recieve personalized health recommendations.</li>
+                    </ol>
+                </div>
+            </div>
+            <div>
+                <img src="../img/slider-2.png" alt="" width="1600" height="117">
+            </div>
+        </div>
     </section>
-
     <!-- CTA Section -->
-    <section>
+    <section class="container cta">
+        <p>Get Started</p>
+        <form action="#">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="First Name"><br>
 
-    </section>
+            <label for="lname">First name:</label><br>
+            <input type="text" id="lname" name="lname" value="Last Name"><br>
 
-    <!-- Lower Section -->
-    <section>
+            <label for="email">First name:</label><br>
+            <input type="text" id="email" name="email" value="Email"><br>   
 
+            <label for="pword">First name:</label><br>
+            <input type="text" id="pword" name="pword" value="Password"><br>
+
+            <input type="checkbox" id="consent" name="consent" value="consent">
+            <label for="consent"> I have a bike</label><br>
+        </form>
     </section>
 
     <!-- Registration Footer -->
-    <footer>
-
+    <footer class="container footer">
+        <div>
+            <img src="../img/hero-banner-button.png" alt="Hero Banner Button" width="282" height="282">
+        </div>
+        
+        <div>
+            <p>Connect, Consult, and Care Remotely</p>
+            <div>
+                <p>Get high quality service with quality telemedecine. Take control of your health and experience the benefits of telemedicine with our platform</p>
+                <button>Lets Talk!</button>
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>
