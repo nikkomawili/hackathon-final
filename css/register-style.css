@@ -1,0 +1,50 @@
+/* Registration Style */
+/* * {
+    flex-grow: 1;
+} */
+
+body {
+    background-color: #F5F6E3;
+}
+
+img {
+    max-width:100%;
+}
+
+.container, .hero, .hero-child {
+    display: flex;
+}
+
+.hero {
+    flex-direction: column;
+}
+
+.hero .hero-child-child {
+    align-content: flex-end;
+}
+
+
+.container.cta {
+    display: flex;
+    align-content: flex-end;
+}
+
+.container.cta p, .container.cta form {
+    flex: 1 1 auto;
+}
+
+.cta {
+    background: url("../img/contact-without-blue-blur.png");
+    width: 2407px;
+    height: 1477px;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background: url("../img/footer.png");
+    width: 1509px;
+    height: 1104px;
+}
+
+.container.footer {
+    align-content: center;
